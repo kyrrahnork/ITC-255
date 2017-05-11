@@ -3,7 +3,6 @@ public class Donation {
 	
 	private int donationID;
 	private String date;
-	private int donorID;
 	private int donationAmount;
 	
 	public Donation(){
@@ -32,14 +31,6 @@ public class Donation {
 
 	public void setDate(String date) {
 		this.date = date;
-	}
-
-	public int getDonorID() {
-		return donorID;
-	}
-
-	public void setDonorID(int donorID) {
-		this.donorID = donorID;
 	}
 
 	public int getDonationAmount() {
